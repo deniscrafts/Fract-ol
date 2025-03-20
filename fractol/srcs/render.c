@@ -6,7 +6,7 @@
 /*   By: denrodri <denrodri@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/05 21:21:31 by denrodri          #+#    #+#             */
-/*   Updated: 2025/03/05 21:21:41 by denrodri         ###   ########.fr       */
+/*   Updated: 2025/03/20 21:07:11 by denrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	change_color(int key, t_engine *engine)
 {
 	if (key == KEY_Q)
-		engine->fractal.color += 0x300000;
+		engine->fractal.color += 0x003000;
 	else if (key == KEY_W)
 		engine->fractal.color += 0x030000;
 	else if (key == KEY_E)
@@ -29,7 +29,7 @@ void	change_color(int key, t_engine *engine)
 	else if (key == KEY_A)
 		engine->fractal.color -= 0x300000;
 	else if (key == KEY_S)
-		engine->fractal.color -= 0x030000;
+		engine->fractal.color -= 0x03000;
 	else if (key == KEY_D)
 		engine->fractal.color -= 0x003000;
 	else if (key == KEY_F)
