@@ -6,10 +6,9 @@
 /*   By: denrodri <denrodri@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 19:28:00 by denrodri          #+#    #+#             */
-/*   Updated: 2025/03/12 19:56:52 by denrodri         ###   ########.fr       */
+/*   Updated: 2025/03/31 15:47:03 by denrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef RENDER_H
 # define RENDER_H
